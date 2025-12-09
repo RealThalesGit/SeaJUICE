@@ -18,4 +18,4 @@ Run this command to move the game
 Rename the "chapterX_windows" (x for any chapter) to "chapterX_linux", dont rename the "data.win" file since the runner need it.
 
 # Running the game 
-On any terminal, run ```cd ~/Deltarune_LINUX``` to go into the your new port directory, run these: ```chmod +x run.sh``` and ```chmod +x runner``` Also, remember to place "runner" and "run.sh" into "~/Deltarune_LINUX" so it can start
+On any terminal, run ```cd ~/Deltarune_LINUX``` to go into the your new port directory, run these: ```chmod +x run.sh``` and ```chmod +x runner``` Also, remember to place "runner" in ~/Deltarune_LINUX/assets and "run.sh" into "~/Deltarune_LINUX" so it can start
