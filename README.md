@@ -6,13 +6,13 @@ These are the required things and steps for run...
 # Downloading the game
 Since i do NOT promote piracy or cracks, into your linux, copy this command, that adds the runtime and others libs required for running
 
-```mkdir -p ~/Deltarune_LINUX && sudo cp /home/thales/.steam/steam/ubuntu12_32 ~/Deltarune_LINUX && cd Deltarune_LINUX && mv ubuntu12_32 steam_ubuntu12_32```
+```mkdir -p ~/Deltarune_LINUX && sudo cp ~/.steam/steam/ubuntu12_32 ~/Deltarune_LINUX && cd Deltarune_LINUX && mv ubuntu12_32 steam_ubuntu12_32```
 
 # Moving the game
-Your games on steam are located in: ```~/.steam/steam/steamapps/common/``` and deltarune on ```/home/thales/.steam/steam/steamapps/common/DELTARUNE```
+Your games on steam are located in: ```~/.steam/steam/steamapps/common/``` and deltarune on ```~/.steam/steam/steamapps/common/DELTARUNE```
 Run this command to move the game
 
-```sudo cp /home/thales/.steam/steam/steamapps/common/DELTARUNE ~/Deltarune_LINUX && cd ~/Deltarune_LINUX && mv DELTARUNE assets && rm DELTARUNE.exe```
+```sudo cp ~/.steam/steam/steamapps/common/DELTARUNE ~/Deltarune_LINUX && cd ~/Deltarune_LINUX && mv DELTARUNE assets && rm DELTARUNE.exe```
 
 # Renaming
 Rename the "chapterX_windows" (x for any chapter) to "chapterX_linux", dont rename the "data.win" file since the runner need it.
