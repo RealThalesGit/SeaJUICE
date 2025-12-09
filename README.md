@@ -12,7 +12,7 @@ Since i do NOT promote piracy or cracks, into your linux, copy this command, tha
 Your games on steam are located in: ```~/.steam/steam/steamapps/common/``` and deltarune on ```~/.steam/steam/steamapps/common/DELTARUNE```
 Run this command to move the game
 
-```sudo cp ~/.steam/steam/steamapps/common/DELTARUNE ~/Deltarune_LINUX && cd ~/Deltarune_LINUX && mv DELTARUNE assets && rm DELTARUNE.exe```
+```cp -r ~/.steam/steam/steamapps/common/DELTARUNE ~/Deltarune_LINUX && cd ~/Deltarune_LINUX && mv DELTARUNE assets && rm assets/DELTARUNE.exe```
 
 # Renaming
 Rename the "chapterX_windows" (x for any chapter) to "chapterX_linux", dont rename the "data.win" file since the runner need it.
