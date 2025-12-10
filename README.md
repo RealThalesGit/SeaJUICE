@@ -1,4 +1,4 @@
-# TANGJUICE
+# SeaJUICE
 My Deltarune Native Linux Port Using Deltarunner as base!
 
 These are the required things and steps for run...
